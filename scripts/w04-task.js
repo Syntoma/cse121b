@@ -28,7 +28,7 @@ myProfile.placesLived.push(
         place: "Taipei",
         length: "9 months"
     }
-)
+);
 
 
 
