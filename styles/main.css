@@ -136,7 +136,7 @@ input[type="button"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    width: 100%
+    width: 100%;
 }
 
 input[type="checkbox"] {
@@ -226,6 +226,11 @@ footer {
     background-color: rgb(250, 225, 250, .5);
 }
 
+#section4 {
+    background-color: rgb(255, 255, 255);
+    margin-top: 2%;
+}
+
 #sortBy {
     appearance: none;
     display: flex;
@@ -277,6 +282,24 @@ footer {
     height: auto;
     box-shadow: 0 0 30px #777;
     margin: .5rem;
+}
+
+#catPicture img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#catFact {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#catTime {
+    margin-top: 2%;
 }
 
 /* Media Queries */
